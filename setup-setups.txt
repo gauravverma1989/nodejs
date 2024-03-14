@@ -1,0 +1,32 @@
+https://www.freecodecamp.org/news/build-a-restful-api-using-node-express-and-mongodb/
+
+In an empty folder, run the following command: 
+ - npm init
+
+This command will ask you for various details, such as the name of your project, the author, the repository, and more. Then it will generate a package.json file in that folder.
+
+{
+  "name": "rest-api-express-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+We need to install a few dependencies.
+
+npm i express mongoose nodemon dotenv
+
+create one file named index.js. This will be the entry point for our application
+
+
+sample JSON format to create data in mongo database
+
+"Name": "Scooby Doo",
+  "Email": "scooby.d@mail.com",
+  "Password": "123456789"
